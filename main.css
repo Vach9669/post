@@ -1,0 +1,113 @@
+ body {
+     font-size: 12px;
+     margin: 0;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.5;
+     color: #212529;
+     text-align: left;
+     background-color: #fff;
+ }
+ 
+ .container {
+     width: auto;
+     height: 90vh;
+     padding: 10px 15px;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ 
+ .outline {
+     border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ header {
+     width: 100%;
+     height: 70px;
+     margin-bottom: 10px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ #login {
+     text-align: right;
+ }
+ 
+ main {
+     padding: 5px;
+     height: calc(90% - 70px - 20px);
+ }
+ 
+ footer {
+     width: 100%;
+     height: 70px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     margin-top: 10px;
+ }
+ 
+ .article,
+ .article1,
+ .inse {
+     margin-top: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ 
+ .article {
+     border: 1px solid rgb(0, 0, 0);
+     width: auto;
+     height: 90px;
+ }
+ 
+ .article1 {
+     overflow: auto;
+     border: 1px solid rgb(0, 0, 0);
+     width: auto;
+     height: 325px;
+     margin-top: 30px;
+ }
+ 
+ .inse {
+     border: 1px solid rgb(0, 0, 0);
+     width: auto;
+     height: 90px;
+ }
+ 
+ button {
+     box-shadow: 3px 3px 3px 3px #212529;
+     float: right;
+     margin-top: -20px;
+     margin-right: 50px;
+ }
+ 
+ .aside-avatar {
+     border-radius: 100px;
+     border: 3px solid green;
+     box-shadow: 0 0 7px rgb(78, 226, 78);
+ }
+ 
+ img {
+     margin-top: 15px;
+     margin-left: 15px;
+ }
+ 
+ #anun {
+     margin-top: -53px;
+     margin-left: 80px;
+ }
+ 
+ .btn-link {
+     font-weight: 400;
+     color: #007bff;
+ }
+ 
+ .btn {
+     display: inline-block;
+     text-align: center;
+     padding: .375rem .75rem;
+ }
